@@ -4,12 +4,12 @@ A curated list of awesome things related to Dremio
 ## Contents
 
 - [Overview](#Overview)
-- [Business Intelligence platform / Data Analysis](#Business-Intelligence-platform-/-Data Analysis
+- [Business Intelligence platform / Data Analysis](business-intelligence-platform--data-analysis)
 - [Data Source Connectors](#"Data-Source-Connectors)
 - [Semantic Layer](#Semantic-Layer)
 - [User Define Functions](#User-Define-Functions)
 - [Orchestrator](#Orchestrator")
-- [Data Catalog][#Data-Catalog)
+- [Data Catalog](#Data-Catalog)
 - [SDK](#SDK)
 - [Tools](#Tools)
 - [Test by Yourself](#Test-by-Yourself)
@@ -78,13 +78,10 @@ A curated list of awesome things related to Dremio
  - Python
  - R
  - Julia
- - Java Script
+ - Java Script : [dremio-sdk-js](https://github.com/datasprints/dremio-sdk-js) - unnoficial Dremio SDK for JavaScript.
  - Go
  - 
 
 ## Test by Yourself
 
 - [dremio-personal-analytics](https://github.com/vandop/dremio-personal-analytics) - This guide provides step-by-step instructions to set up a local data lakehouse environment using MinIO as Nessie or Amazon S3 and Dremio with Docker and Docker Compose.
-- 
-
-- [dremio-sdk-js](https://github.com/datasprints/dremio-sdk-js) - unnoficial Dremio SDK for JavaScript.
