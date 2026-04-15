@@ -43,6 +43,7 @@ A curated list of awesome things related to Dremio
 - [questdb-dremio-connector](https://github.com/3fong/questdb-dremio-connector/) - Dremio QuestDB Connector
 - [dremio-firebird-connector](https://github.com/vahidctt/dremio-firebird-connector) - Dremio Firebird Connector
 - [dremio-sap-hana-connector](https://github.com/viktorgitdev/dremio-sap-hana-connector) - Dremio SAP HANA Connector
+- [dremio-clickhouse-connector](https://github.com/mmsmdali/dremio-clickhouse-arp-connector) - Dremio ClickHouse ARP Connector
   
 
 ## Semantic Layer
@@ -66,22 +67,35 @@ A curated list of awesome things related to Dremio
 
 ## Tools
 
+- [Dremio Cli](https://github.com/dremio/cli) - Dremio developer CLI, and AI agent skills — query, catalog, schema, reflections, jobs, and access for Dremio Cloud
+- [alt-dremio-cli](https://pypi.org/project/alt-dremio-cli/) - A comprehensive command-line interface for Dremio Cloud and Dremio Software.
 - [Dremio Cloner](https://github.com/dremio-professional-services/dremio-cloner) - help to export / import entire of partial Dremio metadata from / to Dremio environments
 - [dremio-diagnostic-collector](https://github.com/dremio/dremio-diagnostic-collector) - Automated log and analytics collection for Dremio clusters
 - [dremio-cloudwatch-exporter](https://github.com/markhoerth/dremio-cloudwatch-exporter) -  Cloudwatch endpoint which publishes all dremio metrics to Cloudwatch
 - [dremio-batch-execute](https://github.com/rsvihladremio/dremio-batch-execute) - Batch run Dremio a list of queries with limits on throughput, concurrency and support for resuming
-- 
-    
+- [terraform-provider-dremio](https://github.com/saltxwater/terraform-provider-dremio) -  Terraform provider for dremio
+
+## AI
+
+- [Dremio MCP server](https://github.com/dremio/dremio-mcp) - Dremio MCP (Model Context Protocol) server for easing LLM integration with Dremio
+- [Dremio Plugins for Claude Code](https://github.com/dremio/claude-plugins) - Official Claude Code plugins from Dremio.
+- [Dremio AI Demo Guide](https://github.com/AlexMercedCoder/dremio-ai-demo) -  repo for dremio ai dremo 
+
 ## SDK
 
- - Java
- - Python
+ - Java : [JDBC Driver](https://www.dremio.com/drivers/jdbc/) - Arrow Flight SQL JDBC Driver
+ - Python : [sqlalchemy-dremio](https://pypi.org/project/sqlalchemy-dremio/) - SQLAlchemy Dremio
  - R
- - Julia
+ - C# : [Dino.DremIO](https://github.com/dinolibraries/Dino.DremIO) - a .NET client and an EF Core provider for connecting to Dremio
  - Java Script : [dremio-sdk-js](https://github.com/datasprints/dremio-sdk-js) - unnoficial Dremio SDK for JavaScript.
- - Go
- - 
+ - Go : [go-dremio-api-client](https://github.com/saltxwater/go-dremio-api-client) -  GoLang Client for interacting with Dremio Api 
+ - Rust : [dremio-rs](https://docs.rs/dremio-rs/latest/dremio_rs/) - 
 
 ## Test by Yourself
 
+- [quick-guides-from-dremio](https://github.com/developer-advocacy-dremio/quick-guides-from-dremio) -  Quick Guides from Dremio on Several topics 
 - [dremio-personal-analytics](https://github.com/vandop/dremio-personal-analytics) - This guide provides step-by-step instructions to set up a local data lakehouse environment using MinIO as Nessie or Amazon S3 and Dremio with Docker and Docker Compose.
+- [dremio-agentic-ai-workshop](https://github.com/wpmartin/dremio-agentic-ai-workshop) - This repository is to accompany Dremio's Agentic AI Virtual Workshops
+
+# credits
+This page is maintained by Synaltic. a French Data Specialist based in Paris - [https://synaltic.fr](https://synaltic.fr)
